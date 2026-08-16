@@ -1,12 +1,12 @@
 import type { Project } from '@/types';
 
-import tixoImg from '@/assets/project-tixo.jpg.asset.json';
+import tixoImg from '@/assets/project-tixo.jpg';
 import superteamImg from '@/assets/project-superteam.png';
 import cryptogigsImg from '@/assets/project-cryptogigs.png';
 import basedlaunchImg from '@/assets/project-basedlaunch.png';
 import zeroGBountyImg from '@/assets/project-0gbounty.png';
-import tokengateImg from '@/assets/project-tokengate.png.asset.json';
-import revampImg from '@/assets/project-revamp.png.asset.json';
+import tokengateImg from '@/assets/project-tokengate.png';
+import revampImg from '@/assets/revamp-logo.png';
 
 export const projects: Project[] = [
   {
@@ -16,11 +16,11 @@ export const projects: Project[] = [
     year: '2026',
     slug: 'tixo',
     externalUrl: 'https://www.tixo.online',
-    coverImage: tixoImg.url,
+    coverImage: tixoImg,
     description: "Africa's freshest event platform. Discover epic events, book instantly, and create sell-outs — all in one place.",
     location: 'Live at tixo.online',
     images: [
-      { id: '1-1', src: tixoImg.url, alt: 'Tixo homepage', aspectRatio: 'portrait' }
+      { id: '1-1', src: tixoImg, alt: 'Tixo homepage', aspectRatio: 'portrait' }
     ]
   },
   {
@@ -86,11 +86,11 @@ export const projects: Project[] = [
     year: '2026',
     slug: 'tokengate',
     externalUrl: 'https://t.me/tokengate1bot',
-    coverImage: tokengateImg.url,
+    coverImage: tokengateImg,
     description: 'Telegram bot that verifies Solana token holders in your group and automatically removes non-holders.',
     location: 'Live on Telegram',
     images: [
-      { id: '6-1', src: tokengateImg.url, alt: 'TokenGate Telegram bot profile', aspectRatio: 'portrait' }
+      { id: '6-1', src: tokengateImg, alt: 'TokenGate Telegram bot profile', aspectRatio: 'portrait' }
     ]
   },
   {
@@ -100,11 +100,11 @@ export const projects: Project[] = [
     year: '2026',
     slug: 'revamp-initiatives',
     externalUrl: 'https://www.therevampinitiatives.org',
-    coverImage: revampImg.url,
+    coverImage: revampImg,
     description: 'A creative social impact hub empowering vulnerable communities through creative expression, vocational training, and sustainable development across Nigeria.',
     location: 'Live at therevampinitiatives.org',
     images: [
-      { id: '7-1', src: revampImg.url, alt: 'Revamp Initiatives homepage', aspectRatio: 'portrait' }
+      { id: '7-1', src: revampImg, alt: 'Revamp Initiatives homepage', aspectRatio: 'portrait' }
     ]
   }
 ];
