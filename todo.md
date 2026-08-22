@@ -6,3 +6,4 @@
 - [x] Replace the copy beneath “What I Build” with the user-provided problem-solving statement.
 - [x] Rename the homepage section heading to “What I Build and Do.”
 - [x] Replace the About Me page copy with the user-provided biography.
+- [x] Diagnose and fix the direct-route Vercel 404 caused by the missing single-page-app fallback rewrite.
