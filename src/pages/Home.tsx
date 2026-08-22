@@ -90,9 +90,25 @@ export default function Home() {
               What I Build
             </h2>
             <div className="space-y-4 text-lg font-light leading-relaxed text-muted-foreground">
+              <p>I Solve Problems.</p>
+              <p>Every project starts with a problem.</p>
               <p>
-                {photographerInfo.biography.split('\n\n')[0]}
+                Something is too slow.<br />
+                Something is difficult to manage.<br />
+                Something needs to be automated.<br />
+                An idea needs to become a real product.<br />
+                A business needs a better way to serve its customers.
               </p>
+              <p>That&apos;s where I come in.</p>
+              <p>
+                I take problems, ideas, and opportunities, figure out what needs to be built, and turn them into practical digital solutions.
+              </p>
+              <p>I&apos;m not interested in building technology just for the sake of it. I build to make things work better.</p>
+              <p>
+                From simple websites to full-scale web applications, backend systems, automation, bots, and on-chain products the technology is only the tool.
+              </p>
+              <p>The real product is the solution.</p>
+              <p>Have a problem worth solving? Let&apos;s talk.</p>
             </div>
                 <Link
                   to="/about"
