@@ -87,7 +87,7 @@ export default function Home() {
             <ScrollReveal>
               <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-light tracking-wide">
-              What I Build
+              What I Build and Do
             </h2>
             <div className="space-y-4 text-lg font-light leading-relaxed text-muted-foreground">
               <p>I Solve Problems.</p>
