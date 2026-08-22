@@ -5,13 +5,15 @@ export const photographerInfo: PhotographerInfo = {
   name: 'Mayor Victor Bayo',
   tagline: 'VIBÆMAN',
   heroIntroduction: 'Fullstack engineer and smart contract developer. Shipping production grade web apps and on-chain systems end to end.',
-  biography: `Mayor Victor Bayo (VIBÆMAN) is a cracked fullstack developer with over 2 years of hands-on experience shipping production-grade web apps, backends, and on-chain systems. He builds across the entire stack, from pixel-perfect interfaces to scalable infrastructure and smart contracts, turning ambitious product ideas into shipped, performant reality.
+  biography: `I’m Mayor Victor Bayo (VIBÆMAN), a fullstack developer focused on solving problems and building useful products.
 
-On the frontend he works with React, Next.js, TypeScript, Tailwind CSS, and modern animation tooling to craft interfaces that feel as good as they look. On the backend he builds with Python, Java, Node.js, Go, and Rust, designing APIs and services around PostgreSQL, Redis, and Docker, focused on reliability, clean architecture, and developer experience.
+I don’t believe technology is valuable simply because it’s advanced. It’s valuable when it solves a real problem, makes something easier, saves time, creates opportunities, or helps a business grow.
 
-In Web3, he writes and deploys smart contracts in Solidity and Rust on EVM chains and Solana, using Foundry, Hardhat, and Anchor. He integrates wallets and on-chain data with ethers, viem, and wagmi, and ships full dApps from contract to UI.
+That’s how I approach every project. I take an idea, challenge, or problem, understand what’s actually needed, and turn it into a practical product that works.
 
-Beyond the code, he believes great software is built on trust, clarity, and genuine collaboration. Every project is a partnership, and every product is an opportunity to create something meaningful for the people who use it.`,
+I have over 2 years of hands-on experience building web applications, backend systems, automation, and Web3 products, but the technology is only the tool.
+
+My goal is simple: understand the problem, build the solution, and make it useful.`,
   approach: `My work is guided by three principles: ship fast, build for scale, and never compromise on UX. I treat every project, Web2 SaaS or Web3 protocol, as a product, not just code.
 
 Whether it is a landing page, a complex dashboard, an API, or a smart contract, I obsess over the details that compound: type safety, clean state, gas efficiency, and interfaces people actually enjoy using.`,

@@ -11,9 +11,9 @@ import animeAvatar from '@/assets/portrait.jpeg';
  * Features split layout with headshot portrait and anime alter ego badge
  */
 export default function About() {
-  const aboutDescription = `Meet ${photographerInfo.name} (${photographerInfo.tagline}), a fullstack engineer and smart contract developer with 2+ years of hands-on experience building production web apps, backends, and on-chain systems.`;
+  const aboutDescription = `${photographerInfo.name} (${photographerInfo.tagline}) is a fullstack developer focused on solving problems and building useful products.`;
 
-  const aboutImage = `${window.location.origin}/__l5e/assets-v1/6137b168-dd10-418b-9f7d-19238b512009/headshot.png`;
+  const aboutImage = new URL(headshot, window.location.origin).href;
 
   const personSchema = {
     '@context': 'https://schema.org',
