@@ -270,8 +270,9 @@ export const Scroller = ({
         {items.map((child, index) => (
           <div
             key={index}
-            // @ts-ignore
-            ref={(el) => (itemsRef.current[index] = el)}
+            ref={(el) => {
+              itemsRef.current[index] = el;
+            }}
           >
             {child}
           </div>

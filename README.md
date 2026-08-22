@@ -1,77 +1,57 @@
-# Welcome to your Lovable project
+# VIBÆMAN Portfolios
 
-## Project info
+The source for **Mayor Victor Bayo (VIBÆMAN)**’s portfolio website. It is a static, responsive React application presenting full-stack and smart-contract development work.
 
-**URL**: https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae
+## Technology
 
-## How can I edit this code?
+| Area | Tooling |
+|---|---|
+| Application | React 18 with TypeScript |
+| Build system | Vite 5 |
+| Styling | Tailwind CSS 4 and Radix UI |
+| Animation | Framer Motion and GSAP |
+| Data services | Supabase client |
 
-There are several ways of editing your application.
+## Local development
 
-**Use Lovable**
+Install the project dependencies, then start the development server:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+bun install
+bun run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server prints the local address to open in a browser. To create a production build, run:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+bun run build
+```
 
-**Use GitHub Codespaces**
+The build output is written to `dist/` and can be previewed locally with:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+bun run preview
+```
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+This is a Vite single-page application and can be deployed to Vercel. Import the GitHub repository in Vercel, keep the framework preset as **Vite**, use `bun run build` as the build command, and deploy the generated `dist` directory.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Project structure
 
-## How can I deploy this project?
+| Path | Purpose |
+|---|---|
+| `src/components/` | Reusable interface components |
+| `src/pages/` | Portfolio page sections and routes |
+| `src/assets/` | Portfolio images and project artwork |
+| `src/lib/` | Shared utilities and integrations |
+| `src/integrations/` | Third-party client configuration |
 
-Simply open [Lovable](https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae) and click on Share -> Publish.
+## Quality checks
 
-## Can I connect a custom domain to my Lovable project?
+Before publishing updates, run:
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
-# ./tailwind-plus folder:
-
-The tailwind-plus folder contains tailwind components and themes to be used as inspiration for the project. DO NOT REMOVE THE FOLDER UNLESS SPECIFICALLY TOLD TO DO SO
+```bash
+bun run lint
+bun run build
+```
