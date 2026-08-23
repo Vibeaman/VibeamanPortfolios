@@ -16,3 +16,4 @@
 - [x] Replace the 0G Bounty Board project artwork with the user-provided image.
 - [x] Verify the live Portfolio page displays the updated 0G Bounty Board project artwork.
 - [x] Replace the TokenGate project artwork with the user-provided image.
+- [x] Confirm the new TokenGate artwork through a normal live Portfolio navigation; the homepage loads successfully, while a cache-bypass URL produced an inconsistent stale-bundle error.
