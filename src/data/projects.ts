@@ -5,7 +5,7 @@ import superteamImg from '@/assets/project-superteam.jpg';
 import cryptogigsImg from '@/assets/project-cryptogigs.jpg';
 import basedlaunchImg from '@/assets/project-basedlaunch.jpg';
 import zeroGBountyImg from '@/assets/project-0gbounty.jpg';
-import tokengateImg from '@/assets/project-tokengate.png';
+import tokengateImg from '@/assets/project-tokengate.jpg';
 import revampImg from '@/assets/revamp-logo.png';
 
 export const projects: Project[] = [
