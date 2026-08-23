@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 import { photographerInfo } from '@/data/photographer';
-import headshot from '@/assets/headshot.png';
 
 interface SEOHeadProps {
   title?: string;
@@ -11,7 +10,7 @@ interface SEOHeadProps {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const HEADSHOT_ASSET_PATH = headshot;
+const SOCIAL_PREVIEW_PATH = '/social-preview.png';
 
 /**
  * SEO component for managing page meta tags using react-helmet-async.
@@ -35,7 +34,7 @@ export function SEOHead({
   const baseUrl = window.location.origin;
   const fullUrl = `${baseUrl}${location.pathname}`;
 
-  const imagePath = image || HEADSHOT_ASSET_PATH;
+  const imagePath = image || SOCIAL_PREVIEW_PATH;
   const absoluteImage = imagePath.startsWith('http')
     ? imagePath
     : `${baseUrl}${imagePath}`;
