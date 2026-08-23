@@ -33,6 +33,7 @@ export interface Project {
 export interface PhotographerInfo {
   name: string;
   tagline: string;
+  heroHeadline: string;
   heroIntroduction: string;
   biography: string;
   approach: string;

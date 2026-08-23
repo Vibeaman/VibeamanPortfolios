@@ -59,11 +59,20 @@ export default function Home() {
               {photographerInfo.tagline}
             </motion.p>
 
+            <motion.h2
+              className="text-xl md:text-2xl font-light tracking-wide text-white"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6 }}
+            >
+              {photographerInfo.heroHeadline}
+            </motion.h2>
+
             <motion.p
               className="text-base md:text-lg font-light leading-relaxed text-white/80 max-w-2xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 1, delay: 0.75 }}
             >
               {photographerInfo.heroIntroduction}
             </motion.p>

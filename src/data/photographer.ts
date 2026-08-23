@@ -4,7 +4,8 @@ import headshot from '@/assets/headshot.png';
 export const photographerInfo: PhotographerInfo = {
   name: 'Mayor Victor Bayo',
   tagline: 'VIBÆMAN',
-  heroIntroduction: 'Fullstack engineer and smart contract developer. Shipping production grade web apps and on-chain systems end to end.',
+  heroHeadline: 'I Turn Problems Into Products',
+  heroIntroduction: 'I build practical digital solutions that solve real problems and create value.',
   biography: `I’m Mayor Victor Bayo (VIBÆMAN), a fullstack developer focused on solving problems and building useful products.
 
 I don’t believe technology is valuable simply because it’s advanced. It’s valuable when it solves a real problem, makes something easier, saves time, creates opportunities, or helps a business grow.
