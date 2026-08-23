@@ -159,7 +159,9 @@ function SkillCard({ group, index }: { group: SkillGroup; index: number }) {
           rotateY: { type: 'spring', stiffness: 170, damping: 18, mass: 0.55 },
           scale: { type: 'spring', stiffness: 260, damping: 20 },
         }}
-        onPointerEnter={() => setHovered(true)}
+        onPointerEnter={(event) => {
+          if (event.pointerType === 'mouse') setHovered(true);
+        }}
         onPointerMove={trackPointer}
         onPointerLeave={resetCard}
         style={{ transformStyle: 'preserve-3d' }}
