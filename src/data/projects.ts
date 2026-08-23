@@ -18,6 +18,8 @@ export const projects: Project[] = [
     externalUrl: 'https://www.tixo.online',
     coverImage: tixoImg,
     description: "Africa's freshest event platform. Discover epic events, book instantly, and create sell-outs — all in one place.",
+    challenge: 'Event organizers needed their own ticketing system with better control over sales, referrals, and ticket ownership.',
+    solution: 'Built a complete platform for event creation, ticket sales, referrals, gifting, and seamless ticket transfers.',
     location: 'Live at tixo.online',
     images: [
       { id: '1-1', src: tixoImg, alt: 'Tixo homepage', aspectRatio: 'portrait' }

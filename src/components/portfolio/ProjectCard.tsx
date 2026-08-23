@@ -110,6 +110,22 @@ function CardInner({ project, ratio, aspectRatioClasses, showCategory, index, is
             {project.description}
           </p>
         )}
+        {(project.challenge || project.solution) && (
+          <div className="grid gap-3 border-t border-border/70 pt-4">
+            {project.challenge && (
+              <div className="grid gap-1">
+                <p className="text-[0.65rem] font-light uppercase tracking-[0.2em] text-muted-foreground">Challenge</p>
+                <p className="text-sm font-light leading-relaxed text-foreground/85">{project.challenge}</p>
+              </div>
+            )}
+            {project.solution && (
+              <div className="grid gap-1">
+                <p className="text-[0.65rem] font-light uppercase tracking-[0.2em] text-muted-foreground">Solution</p>
+                <p className="text-sm font-light leading-relaxed text-foreground/85">{project.solution}</p>
+              </div>
+            )}
+          </div>
+        )}
         {project.externalUrl && (
           <p className="text-xs text-muted-foreground/70 font-light">
             Tap to visit the live site

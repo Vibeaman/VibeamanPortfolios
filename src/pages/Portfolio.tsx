@@ -13,7 +13,7 @@ export default function Portfolio() {
     <>
       <SEOHead 
         title="Portfolio"
-        description="A selection of real products I’ve built to solve problems, simplify processes, and turn ideas into useful software."
+        description="A selection of real products I’ve built to solve challenges, simplify processes, and turn ideas into useful software."
       />
       
       <div className="min-h-screen">
@@ -29,13 +29,13 @@ export default function Portfolio() {
               Projects
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground font-light tracking-wide max-w-2xl mx-auto">
-              Problems I’ve Solved
+              Challenges I’ve Solved
             </p>
             <p className="text-base md:text-lg text-muted-foreground font-light tracking-wide max-w-2xl mx-auto mt-4">
-              A selection of real products I’ve built to solve problems, simplify processes, and turn ideas into useful software.
+              A selection of real products I’ve built to solve challenges, simplify processes, and turn ideas into useful software.
             </p>
             <p className="text-sm text-muted-foreground/70 font-light tracking-wide mt-4">
-              Every project starts with a problem and ends with a solution.
+              Every project begins with a challenge and ends with a solution.
             </p>
             <p className="text-sm text-muted-foreground/70 font-light tracking-wide mt-2">
               Click the picture to visit the live site or automation.
