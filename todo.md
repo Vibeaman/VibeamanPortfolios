@@ -21,3 +21,4 @@
 - [x] Restore the Portfolio instruction directing visitors to click a picture to visit its live site or automation.
 - [x] Restore a valid WhatsApp link preview image and metadata for the public portfolio URL.
 - [x] Replace the homepage copy beneath VIBÆMAN with the user-provided problem-solving statement.
+- [x] Create and integrate an interactive Skills page using the user-provided problem-solving content.
