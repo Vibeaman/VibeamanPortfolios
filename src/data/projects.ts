@@ -2,7 +2,7 @@ import type { Project } from '@/types';
 
 import tixoImg from '@/assets/project-tixo.jpg';
 import superteamImg from '@/assets/project-superteam.jpg';
-import cryptogigsImg from '@/assets/project-cryptogigs.png';
+import cryptogigsImg from '@/assets/project-cryptogigs.jpg';
 import basedlaunchImg from '@/assets/project-basedlaunch.png';
 import zeroGBountyImg from '@/assets/project-0gbounty.png';
 import tokengateImg from '@/assets/project-tokengate.png';

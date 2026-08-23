@@ -10,3 +10,4 @@
 - [x] Verify the live About route returns HTTP 200 and renders the updated portfolio page after deployment.
 - [x] Replace the CryptoGigs project destination with its verified live URL.
 - [x] Replace the Superteam Brasil project artwork with the user-provided image.
+- [x] Replace the CryptoGigs project artwork with the user-provided image.
