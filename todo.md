@@ -11,3 +11,4 @@
 - [x] Replace the CryptoGigs project destination with its verified live URL.
 - [x] Replace the Superteam Brasil project artwork with the user-provided image.
 - [x] Replace the CryptoGigs project artwork with the user-provided image.
+- [x] Verify the live Portfolio page displays the updated Superteam Brasil and CryptoGigs project artwork.
