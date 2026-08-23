@@ -13,7 +13,7 @@ export default function Portfolio() {
     <>
       <SEOHead 
         title="Portfolio"
-        description="A selection of projects I've built — fullstack web apps, Web3 platforms, and on-chain systems shipped end to end."
+        description="A selection of real products I’ve built to solve problems, simplify processes, and turn ideas into useful software."
       />
       
       <div className="min-h-screen">
@@ -29,10 +29,13 @@ export default function Portfolio() {
               Projects
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground font-light tracking-wide max-w-2xl mx-auto">
-              A selection of things I've built — fullstack apps, Web3 platforms, and on-chain systems shipped end to end.
+              Problems I’ve Solved
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground font-light tracking-wide max-w-2xl mx-auto mt-4">
+              A selection of real products I’ve built to solve problems, simplify processes, and turn ideas into useful software.
             </p>
             <p className="text-sm text-muted-foreground/70 font-light tracking-wide mt-4">
-              Tap any project image to open its live link.
+              Every project starts with a problem and ends with a solution.
             </p>
           </motion.div>
         </div>
