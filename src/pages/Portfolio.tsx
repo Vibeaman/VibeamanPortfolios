@@ -37,6 +37,9 @@ export default function Portfolio() {
             <p className="text-sm text-muted-foreground/70 font-light tracking-wide mt-4">
               Every project starts with a problem and ends with a solution.
             </p>
+            <p className="text-sm text-muted-foreground/70 font-light tracking-wide mt-2">
+              Click the picture to visit the live site or automation.
+            </p>
           </motion.div>
         </div>
       </section>

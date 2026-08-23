@@ -18,3 +18,4 @@
 - [x] Replace the TokenGate project artwork with the user-provided image.
 - [x] Confirm the new TokenGate artwork through a normal live Portfolio navigation; the homepage loads successfully, while a cache-bypass URL produced an inconsistent stale-bundle error.
 - [x] Replace the Portfolio page introduction with the user-provided “Problems I’ve Solved” copy.
+- [x] Restore the Portfolio instruction directing visitors to click a picture to visit its live site or automation.
