@@ -13,3 +13,4 @@
 - [x] Replace the CryptoGigs project artwork with the user-provided image.
 - [x] Verify the live Portfolio page displays the updated Superteam Brasil and CryptoGigs project artwork.
 - [x] Replace the BasedLaunch project artwork with the user-provided image.
+- [x] Replace the 0G Bounty Board project artwork with the user-provided image.
