@@ -8,3 +8,4 @@
 - [x] Replace the About Me page copy with the user-provided biography.
 - [x] Diagnose and fix the direct-route Vercel 404 caused by the missing single-page-app fallback rewrite.
 - [x] Verify the live About route returns HTTP 200 and renders the updated portfolio page after deployment.
+- [x] Replace the CryptoGigs project destination with its verified live URL.

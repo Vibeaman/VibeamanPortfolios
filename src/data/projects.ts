@@ -43,7 +43,7 @@ export const projects: Project[] = [
     category: 'web3',
     year: '2026',
     slug: 'cryptogigs',
-    externalUrl: 'https://vercel.com/vibeamans-projects/cryptogigss',
+    externalUrl: 'https://cryptogigss.vercel.app',
     coverImage: cryptogigsImg,
     description: "Find crypto freelance opportunities first. Scans new token launches across Solana, Base, and Ethereum to surface projects that need your skills before they post listings.",
     location: 'Live on Vercel',
