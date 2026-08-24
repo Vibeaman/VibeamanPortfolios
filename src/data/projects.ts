@@ -50,6 +50,8 @@ export const projects: Project[] = [
     externalUrl: 'https://cryptogigss.vercel.app',
     coverImage: cryptogigsImg,
     description: "Find crypto freelance opportunities first. Scans new token launches across Solana, Base, and Ethereum to surface projects that need your skills before they post listings.",
+    challenge: 'Freelancers usually wait for crypto projects to post jobs before discovering opportunities.',
+    solution: 'Built a system that detects new token launches across major chains and identifies potential projects that may need their skills — before they start hiring.',
     location: 'Live on Vercel',
     images: [
       { id: '3-1', src: cryptogigsImg, alt: 'CryptoGigs homepage', aspectRatio: 'portrait' }
