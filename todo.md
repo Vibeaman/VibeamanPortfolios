@@ -33,3 +33,4 @@
 - [x] Add the user-provided TokenGate Challenge-and-Solution narrative and verify the live portfolio card.
 - [x] Add the user-provided Revamp Initiatives Challenge-and-Solution narrative and verify the live portfolio card.
 - [x] Refresh the portfolio social-preview title and description to match the current problem-solving positioning, then verify the deployed metadata.
+- [x] Remove the standalone “I Solve Problems.” line from the homepage What I Build and Do section and verify the live layout.

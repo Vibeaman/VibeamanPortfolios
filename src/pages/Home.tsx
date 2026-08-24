@@ -99,7 +99,6 @@ export default function Home() {
               What I Build and Do
             </h2>
             <div className="space-y-4 text-lg font-light leading-relaxed text-muted-foreground">
-              <p>I Solve Problems.</p>
               <p>Every project starts with a problem.</p>
               <p>
                 Something is too slow.<br />
