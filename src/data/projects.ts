@@ -98,6 +98,8 @@ export const projects: Project[] = [
     externalUrl: 'https://t.me/tokengate1bot',
     coverImage: tokengateImg,
     description: 'Telegram bot that verifies Solana token holders in your group and automatically removes non-holders.',
+    challenge: 'Token-gated communities need a reliable way to verify who actually holds their Solana token without relying on manual wallet checks.',
+    solution: 'Built a Telegram bot that automatically verifies Solana token holders and removes users who no longer meet the holding requirement.',
     location: 'Live on Telegram',
     images: [
       { id: '6-1', src: tokengateImg, alt: 'TokenGate Telegram bot profile', aspectRatio: 'portrait' }
