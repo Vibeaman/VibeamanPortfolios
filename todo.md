@@ -28,3 +28,4 @@
 - [x] Add the user-provided Tixo Challenge-and-Solution narrative to the portfolio project card and establish the pattern for remaining projects.
 - [x] Audit the portfolio project-card grid for consistency and add the user-provided Superteam Brasil Challenge-and-Solution narrative.
 - [x] Add the user-provided CryptoGigs Challenge-and-Solution narrative and verify the live portfolio card.
+- [x] Add the user-provided BasedLaunch Challenge-and-Solution narrative and verify the live portfolio card.

@@ -66,6 +66,8 @@ export const projects: Project[] = [
     externalUrl: 'https://based-launch-delta.vercel.app',
     coverImage: basedlaunchImg,
     description: 'The anti-rug launchpad. Team vesting, locked liquidity, and transparent launches — built on Solana.',
+    challenge: 'Token launches can be plagued by sudden dumps, unclear allocations, and projects built for short-term hype.',
+    solution: 'Built a Solana launchpad with enforced vesting, transparent allocations, and community-building tools designed to align creators with their communities.',
     location: 'Live on Vercel',
     images: [
       { id: '4-1', src: basedlaunchImg, alt: 'BasedLaunch homepage', aspectRatio: 'portrait' }
