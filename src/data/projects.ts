@@ -114,6 +114,8 @@ export const projects: Project[] = [
     externalUrl: 'https://www.therevampinitiatives.org',
     coverImage: revampImg,
     description: 'A creative social impact hub empowering vulnerable communities through creative expression, vocational training, and sustainable development across Nigeria.',
+    challenge: 'Revamp Initiatives needed a reliable official website to replace its broken web presence and properly communicate its mission and impact.',
+    solution: 'Built a modern digital home for the organization, showcasing its work, programs, mission, and ways for people to get involved.',
     location: 'Live at therevampinitiatives.org',
     images: [
       { id: '7-1', src: revampImg, alt: 'Revamp Initiatives homepage', aspectRatio: 'portrait' }
