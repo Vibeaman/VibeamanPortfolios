@@ -35,20 +35,21 @@ export function ProjectCard({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
+      className="h-full"
     >
       {project.externalUrl ? (
         <a
           href={project.externalUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="group block relative overflow-hidden rounded-sm"
+          className="group block h-full relative overflow-hidden rounded-sm"
         >
           <CardInner project={project} ratio={ratio} aspectRatioClasses={aspectRatioClasses} showCategory={showCategory} index={index} isLoaded={isLoaded} setIsLoaded={setIsLoaded} />
         </a>
       ) : (
         <Link
           to={`/project/${project.slug}`}
-          className="group block relative overflow-hidden rounded-sm"
+          className="group block h-full relative overflow-hidden rounded-sm"
         >
           <CardInner project={project} ratio={ratio} aspectRatioClasses={aspectRatioClasses} showCategory={showCategory} index={index} isLoaded={isLoaded} setIsLoaded={setIsLoaded} />
         </Link>
@@ -69,7 +70,7 @@ interface CardInnerProps {
 
 function CardInner({ project, ratio, aspectRatioClasses, showCategory, index, isLoaded, setIsLoaded }: CardInnerProps) {
   return (
-    <div className="space-y-4">
+    <div className="flex h-full flex-col gap-4">
       <div className={cn('relative overflow-hidden bg-muted rounded-sm', aspectRatioClasses[ratio])}>
         {!isLoaded && <div className="absolute inset-0 bg-muted" />}
 
@@ -94,7 +95,7 @@ function CardInner({ project, ratio, aspectRatioClasses, showCategory, index, is
         )}
       </div>
 
-      <div className="px-1 space-y-2">
+      <div className="flex flex-1 flex-col px-1">
         <div className="flex items-baseline justify-between gap-4">
           <h3 className="text-lg md:text-xl font-light tracking-wide text-foreground group-hover:text-foreground/70 transition-colors">
             {project.title}
@@ -106,12 +107,12 @@ function CardInner({ project, ratio, aspectRatioClasses, showCategory, index, is
           )}
         </div>
         {project.description && (
-          <p className="text-sm text-muted-foreground font-light leading-relaxed line-clamp-2">
+          <p className="mt-2 text-sm text-muted-foreground font-light leading-relaxed line-clamp-2">
             {project.description}
           </p>
         )}
         {(project.challenge || project.solution) && (
-          <div className="grid gap-3 border-t border-border/70 pt-4">
+          <div className="mt-4 grid gap-3 border-t border-border/70 pt-4">
             {project.challenge && (
               <div className="grid gap-1">
                 <p className="text-[0.65rem] font-light uppercase tracking-[0.2em] text-muted-foreground">Challenge</p>
@@ -127,7 +128,7 @@ function CardInner({ project, ratio, aspectRatioClasses, showCategory, index, is
           </div>
         )}
         {project.externalUrl && (
-          <p className="text-xs text-muted-foreground/70 font-light">
+          <p className="mt-auto pt-4 text-xs text-muted-foreground/70 font-light">
             Tap to visit the live site
           </p>
         )}

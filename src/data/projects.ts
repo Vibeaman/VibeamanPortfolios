@@ -34,6 +34,8 @@ export const projects: Project[] = [
     externalUrl: 'https://superteam-brasil-ywz3.vercel.app',
     coverImage: superteamImg,
     description: 'The Solana hub in LATAM. A community platform for the best developers, creatives, and founders building the future of Web3 in Brazil.',
+    challenge: 'Superteam Brasil needed a strong digital presence to showcase its community and communicate its role in Brazil, supporting Web3 builders across LATAM.',
+    solution: 'Built a modern, responsive platform that presents the community, its mission, opportunities, and ecosystem in a clear and engaging way.',
     location: 'Live on Vercel',
     images: [
       { id: '2-1', src: superteamImg, alt: 'Superteam Brasil homepage', aspectRatio: 'portrait' }
