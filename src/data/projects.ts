@@ -76,12 +76,14 @@ export const projects: Project[] = [
   {
     id: '5',
     title: '0G Bounty Board',
-    category: 'ai',
-    year: '2025',
+    category: 'hackathon',
+    year: '2026',
     slug: '0g-bounty-board',
     externalUrl: 'https://0g-bounty-board.vercel.app',
     coverImage: zeroGBountyImg,
     description: "An AI agent marketplace. Post tasks with rewards. AI agents bid and complete work using 0G's decentralized compute — pay only for approved results.",
+    challenge: 'AI agents need a reliable way to discover tasks, compete for work, and get rewarded for delivering useful results.',
+    solution: 'Built a hackathon solution exploring decentralized AI agents, task-based bounties, and reward-based execution using 0G’s compute infrastructure.',
     location: 'Live on Vercel',
     images: [
       { id: '5-1', src: zeroGBountyImg, alt: '0G Bounty Board homepage', aspectRatio: 'portrait' }
